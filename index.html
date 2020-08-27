@@ -5,14 +5,22 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <title>StanislwoDent</title>
 </head>
 
 <body>
+
     <nav class="menu">
-        <a href="#">Strona domowa</a>
-        <a href="#">Cennik</a>
-        <a href="#">Umów wizytę</a>
+        <a href="#">
+            <p>Strona domowa</p>
+        </a>
+        <a href="#">
+            <p>Cennik</p>
+        </a>
+        <a href="#">
+            <p>Umów wizytę</p>
+        </a>
     </nav>
     <main>
         <section class="card">
@@ -63,20 +71,17 @@
                 </div>
             </section>
         </article>
-        <form class="visit">
-             <label for="calender">Data</label>
-            <input type="date" id="calender" name="calender">
-            <label for="clock">Godzina</label>
-            <input type="time" id="clock" name="clock">
-            <label for="phone">Nr telefonu: </label>
-            <input type="tel" id="phone" name="phone" required minlenght="9" maxlength="9">
-            <button>Submit</button>
+        <form action="mailto: bot@gmail.com" method="POST" id=form1>
+            <label for="first-name"> Imię</label>
+            <input type="text" id="first-name" name="first-name">
+            <label for="mail">email</label>
+            <input typ="email" id="mail" name="mail">
+            <label for="message">Wiadomość</label>
+            <textarea id="message" name="message" rows="10" cols="30"></textarea>
+            <button type="submit" form="form1" value="Submit">Submit</button>
         </form>
     </main>
     <footer class="contact">
-
+        <div>Wszystkie prawa zastrzeżone &copy; Jarosław Wnuk 2020</div>
     </footer>
-</body>
-
-</html>
-<link rel="stylesheet" href="">
+</body></html>
