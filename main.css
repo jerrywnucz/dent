@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+.price {
+    display: flex;
+}
+.table {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+}
+main {
+    display: grid;
+}
